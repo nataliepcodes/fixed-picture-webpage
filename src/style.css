@@ -17,18 +17,18 @@ html {
 }
 
 .img1 {
-  background-image: url("../images/img1.jpg");
+  background-image: url("../src/images/img1.jpg");
   min-height: 100%;
 }
 
 .img2 {
-  background-image: url("../images/img2.jpg");
+  background-image: url("../src/images/img2.jpg");
   min-height: 500px;
   opacity: 0.5;
 }
 
 .img3 {
-  background-image: url("../images/img3.jpg");
+  background-image: url("../src/images/img3.jpg");
   min-height: 500px;
 }
 
@@ -41,4 +41,14 @@ html {
   text-transform: uppercase;
   top: 50%;
   width: 100%;
+}
+.photo-source {
+  bottom: 0;
+  color: white;
+  position: absolute;
+}
+
+.photo-source a {
+  color: white;
+  text-decoration: none;
 }
