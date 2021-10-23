@@ -1,3 +1,7 @@
+:root {
+  --primary-color: rgb(34, 31, 31);
+  --secondary-color: white;
+}
 body,
 html {
   color: grey;
@@ -33,7 +37,7 @@ html {
 }
 
 .text {
-  color: white;
+  color: var(--secondary-color);
   font-size: 30px;
   letter-spacing: 5px;
   position: absolute;
@@ -43,8 +47,8 @@ html {
   width: 100%;
 }
 .text .border {
-  background-color: rgb(34, 31, 31);
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 20px;
 }
 .text .border-trans {
@@ -52,11 +56,11 @@ html {
 }
 .photo-source {
   bottom: 0;
-  color: white;
+  color: var(--secondary-color);
   position: absolute;
 }
 
 .photo-source a {
-  color: white;
+  color: var(--secondary-color);
   text-decoration: none;
 }
