@@ -1,0 +1,42 @@
+body,
+html {
+  color: grey;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  line-height: 1.6;
+  margin: 0;
+}
+.img1,
+.img2,
+.img3 {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.img1 {
+  background-image: url("../images/img1.jpg");
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url("../images/img2.jpg");
+  min-height: 500px;
+  opacity: 0.5;
+}
+
+.img3 {
+  background-image: url("../images/img3.jpg");
+  min-height: 500px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+}
