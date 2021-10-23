@@ -13,7 +13,7 @@ html {
   background-position: center;
   background-size: cover;
   position: relative;
-  background-attachment: fixed;
+  background-attachment: fixed; /* this makes the magic */
 }
 
 .img1 {
@@ -35,8 +35,10 @@ html {
 .text {
   color: white;
   font-size: 30px;
+  letter-spacing: 5px;
   position: absolute;
-  top: 50%;
   text-align: center;
+  text-transform: uppercase;
+  top: 50%;
   width: 100%;
 }
