@@ -42,6 +42,14 @@ html {
   top: 50%;
   width: 100%;
 }
+.text .border {
+  background-color: rgb(34, 31, 31);
+  color: white;
+  padding: 20px;
+}
+.text .border-trans {
+  background-color: transparent;
+}
 .photo-source {
   bottom: 0;
   color: white;
