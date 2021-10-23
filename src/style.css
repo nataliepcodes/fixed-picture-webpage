@@ -57,6 +57,18 @@ html {
   background-color: transparent;
 }
 
+.text-quote {
+  color: var(--secondary-color);
+  font-size: 30px;
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 40%;
+  right: 20%;
+  left: 22%;
+}
+
 .section {
   text-align: center;
   padding: 60px 80px;
