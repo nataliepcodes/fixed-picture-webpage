@@ -70,9 +70,11 @@ html {
 }
 
 .photo-source {
-  bottom: 0;
   color: var(--secondary-color);
-  position: absolute;
+  font-size: 10px;
+  width: auto;
+  text-align: center;
+  padding: 60% 20% 0% 20%;
 }
 
 .photo-source a {
