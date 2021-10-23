@@ -1,10 +1,10 @@
 :root {
   --primary-color: rgb(34, 31, 31);
-  --secondary-color: white;
+  --secondary-color: #f4f4f4;
 }
 body,
 html {
-  color: grey;
+  color: #666;
   font-size: 17px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   height: 100%;
@@ -28,12 +28,13 @@ html {
 .img2 {
   background-image: url("../src/images/img2.jpg");
   min-height: 500px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .img3 {
   background-image: url("../src/images/img3.jpg");
   min-height: 500px;
+  opacity: 0.7;
 }
 
 .text {
@@ -54,6 +55,20 @@ html {
 .text .border-trans {
   background-color: transparent;
 }
+
+.section {
+  text-align: center;
+  padding: 60px 80px;
+}
+
+.section-light {
+  background-color: var(--secondary-color);
+}
+.section-dark {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .photo-source {
   bottom: 0;
   color: var(--secondary-color);
