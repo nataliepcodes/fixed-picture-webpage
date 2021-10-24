@@ -94,3 +94,9 @@ html {
   color: var(--secondary-color);
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  .text-quote {
+    font-size: 10px;
+  }
+}
