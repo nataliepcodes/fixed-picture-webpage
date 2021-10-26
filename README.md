@@ -1,2 +1,1 @@
-# fixed-picture-webpage
-hosted on Netlify: https://sleepy-hodgkin-573604.netlify.app/
+IT IS CURRENTLY NOT RESPONSIVE ON IPHONE 5, 12.. WORKING ON FIXING IT.
