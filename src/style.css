@@ -28,13 +28,13 @@ html {
 
 .img2 {
   background-image: url("../src/images/img2.jpg");
-  min-height: 500px;
+  min-height: 40%;
   opacity: 0.8;
 }
 
 .img3 {
   background-image: url("../src/images/img3.jpg");
-  min-height: 500px;
+  min-height: 40%;
   opacity: 0.7;
 }
 
