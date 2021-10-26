@@ -18,6 +18,7 @@ html {
   background-size: cover;
   position: relative;
   background-attachment: fixed; /* this makes the magic */
+  background-repeat: no-repeat;
 }
 
 .img1 {
