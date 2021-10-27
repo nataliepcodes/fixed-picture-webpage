@@ -104,6 +104,6 @@ html {
   .img1,
   .img2,
   .img3 {
-    background-size: 100%;
+    background-size: 100% auto;
   }
 }
