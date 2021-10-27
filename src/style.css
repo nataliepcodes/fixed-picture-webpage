@@ -104,6 +104,6 @@ html {
   .img1,
   .img2,
   .img3 {
-    background-attachment: inherit;
+    background-attachment: fixed;
   }
 }
