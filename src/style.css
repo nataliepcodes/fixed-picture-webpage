@@ -15,7 +15,7 @@ html {
 .img2,
 .img3 {
   background-position: center;
-  background-size: 100% auto;
+  background-size: cover;
   position: relative;
   background-attachment: fixed; /* this makes the magic */
   background-repeat: no-repeat;
@@ -23,19 +23,19 @@ html {
 
 .img1 {
   background-image: url("../src/images/img1.jpg");
-  height: 100%;
+  min-height: 100%;
   opacity: 0.9;
 }
 
 .img2 {
   background-image: url("../src/images/img2.jpg");
-  height: 500px;
+  min-height: 500px;
   opacity: 0.8;
 }
 
 .img3 {
   background-image: url("../src/images/img3.jpg");
-  height: 500px;
+  min-height: 500px;
   opacity: 0.7;
 }
 
@@ -73,15 +73,16 @@ html {
 
 .photo-source {
   color: var(--secondary-color);
-  font-size: 12px;
-  width: auto;
+  font-size: 30px;
+  position: absolute;
   text-align: center;
-  padding: 60% 20% 0% 20%;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
 }
 
 .photo-source a {
   color: var(--secondary-color);
-  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -89,11 +90,6 @@ html {
     font-size: 25px;
   }
   .photo-source {
-    font-size: 8px;
-  }
-  .img1,
-  .img2,
-  .img3 {
-    background-attachment: inherit;
+    font-size: 25px;
   }
 }
