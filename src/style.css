@@ -93,11 +93,11 @@ html {
     font-size: 25px;
   }
   .img1 {
-    min-height: 100%;
+    height: 100%;
   }
 
   .img2,
   .img3 {
-    min-height: 500px;
+    height: 500px;
   }
 }
