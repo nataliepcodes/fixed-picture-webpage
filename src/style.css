@@ -88,7 +88,6 @@ html {
 @media (max-width: 768px) {
   .text {
     font-size: 25px;
-    position: absolute;
   }
   .photo-source {
     font-size: 25px;
@@ -105,6 +104,6 @@ html {
   .img1,
   .img2,
   .img3 {
-    background-position-y: fixed;
+    width: 100%;
   }
 }
