@@ -92,4 +92,12 @@ html {
   .photo-source {
     font-size: 25px;
   }
+  .img1 {
+    min-height: 100%;
+  }
+
+  .img2,
+  .img3 {
+    min-height: 500px;
+  }
 }
