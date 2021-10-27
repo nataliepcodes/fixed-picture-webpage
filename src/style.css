@@ -100,4 +100,10 @@ html {
   .img3 {
     height: 500px;
   }
+
+  .img1,
+  .img2,
+  .img3 {
+    background-size: 100%;
+  }
 }
