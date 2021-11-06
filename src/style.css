@@ -73,16 +73,17 @@ html {
 
 .photo-source {
   color: var(--secondary-color);
-  font-size: 30px;
+  font-size: 20px;
   position: absolute;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
   top: 50%;
   width: 100%;
 }
 
 .photo-source a {
   color: var(--secondary-color);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +91,7 @@ html {
     font-size: 25px;
   }
   .photo-source {
-    font-size: 25px;
+    font-size: 10px;
   }
   .img1,
   .img2,
